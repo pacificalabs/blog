@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+  
+
+<head>
+  <title> | Pacifica Labs</title>
+  <meta name="title" content=" | Pacifica Labs">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <base href="">
+  <meta name="description" content="Pacifica - Homepage">
+  <meta name="author" content="pacifica-labs">
+  
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pacifica-labs">
+  <meta name="twitter:creator" content="@pacifica-labs">
+  <meta property="og:title" content=" | Pacifica Labs">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/about/">
+  <meta property="og:image" content="/images/pacifica_logo_blue.png">
+  
+  <meta property="og:description" content="Pacifica - Homepage">
+  
+  <link rel="canonical" href="/about/">
+  
+  
+  <link rel="stylesheet" href="/style.7c9c40e553ff238b9322d0fa0618f427f8e5215e263174c0e4de48595067e34c.css">
+  
+  
+  
+  <script src="/js/vendor/lazysizes.min.js" async></script>
+  
+  
+  
+</head>
+  <body>
+    
+
+<nav class="row middle-xs center-xs nav-fixed nav-shadow">
+  <div class="col-xs-6 col-sm-1 logo" style="visibility: visible;">
+    <a href="/#">
+      
+      
+      
+      
+      
+      
+      
+      <img
+      
+      data-src="/navlogo.png"
+      class="lazyload"
+      
+      alt="Home"
+      height="495"
+       width="495" 
+      >
+    </a>
+  </div>
+  
+  <div class="col-xs-3 col-sm-2 nav-item">
+    <h3><a id="About" href="/#about">About</a></h3>
+  </div>
+  
+  <div class="col-xs-3 col-sm-2 nav-item">
+    <h3><a id="Work" href="/#work">Work</a></h3>
+  </div>
+  
+  <div class="col-xs-3 col-sm-2 nav-item">
+    <h3><a id="Blog" href="/#blog">Blog</a></h3>
+  </div>
+  
+  <div class="col-xs-3 col-sm-2 nav-item">
+    <h3><a id="Contact" href="/#contact">Contact</a></h3>
+  </div>
+  
+  <div class="col-xs-6 col-sm-1 nav-toggle" style="visibility: visible;">
+    <a href="" class="nav-icon" onclick="return false">
+      <i class="icon icon-2x icon-menu"></i>
+    </a>
+  </div>
+</nav>
+<section class="nav-full row middle-xs center-xs">
+  <div class="col-xs-12">
+    <div class="row middle-xs center-xs">
+      
+      <div class="col-xs-12"><h1><a href="/#about">About</a></h1></div>
+      
+      <div class="col-xs-12"><h1><a href="/#work">Work</a></h1></div>
+      
+      <div class="col-xs-12"><h1><a href="/#blog">Blog</a></h1></div>
+      
+      <div class="col-xs-12"><h1><a href="/#contact">Contact</a></h1></div>
+      
+    </div>
+  </div>
+</section>
+    <main>
+      <section class="container">
+        <section class="content">
+          <h1 class="blog-header">  </h1>
+          <div class="sub-header">
+            Updated: January 1, 0001
+          </div>
+          <div class="sub-header">
+            
+          </div>
+          <div class="sub-header">
+            
+          </div>
+          <article class="entry-content">
+            <h1 id="focussed-on-the-thoughtful--loving-creation-of-technology">Focussed on the thoughtful &amp; loving creation of technology.</h1>
+<h2 id="made-in-australia">Made in Australia.</h2>
+<h2 id="worldwide-since-2013">Worldwide since 2013.</h2>
+
+          </article>
+          <div class="pagination">
+            
+            
+            <a href="/toma-nistor/">Toma Nistor &raquo;</a>
+            
+          </div>
+        </section>
+        <br>
+        
+      </section>
+    </main>
+    <footer id="footr">
+  <div class="row center-xs social">
+    <div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-twitter"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-linkedin"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href="#ZgotmplZ"><i class="icon icon-github"></i></a>
+    </div><div class="col-xs-2">
+      <a target="_blank" rel="noopener" href=""><i class="icon icon-stackoverflow"></i></a>
+    </div>
+  </div>
+  <div class="row center-xs">
+    <div class="col-xs">
+      <small>
+      
+      Copyright &copy; 2022 Pacifica Labs
+      
+      <div class="col-xs">
+        <small>Theme: <a href="https://github.com/kdevo/osprey-delight" target="_blank" rel="noopener">Osprey Delight</a></small>
+      </div>
+      </small>
+    </div>
+  </div>
+</footer>
+    
+
+
+<script>(() => {
+  // <stdin>
+  document.documentElement.className = "js";
+  var $ = document.querySelector.bind(document);
+  var $$ = document.querySelectorAll.bind(document);
+  var menuActive = false;
+  var nav = $("nav");
+  var navActive = $(".nav-full");
+  navToggleAndLogo = $$("nav > .logo, nav > .nav-toggle");
+  function toggleMenu() {
+    if (menuActive) {
+      $(".nav-icon").classList.remove("icon-active");
+    } else {
+      $(".nav-icon").classList.add("icon-active");
+    }
+    menuActive = !menuActive;
+  }
+  $(".nav-icon").addEventListener("click", () => {
+    toggleMenu();
+    $$(".nav-full, main").forEach((el) => {
+      el.classList.toggle("active");
+    });
+  });
+  $$(".nav-full a").forEach((links) => {
+    links.addEventListener("click", () => {
+      toggleMenu();
+      $$(".nav-full, main").forEach((el) => {
+        el.classList.toggle("active");
+      });
+    });
+  });
+  $(".logo").addEventListener("click", () => {
+    if ($(".nav-full").classList.contains("active")) {
+      toggleMenu();
+      $$(".nav-full, main").forEach((el) => {
+        el.classList.toggle("active");
+      });
+    }
+  });
+  $("body").addEventListener("click", () => {
+    if ($(".nav-full").classList.contains("active")) {
+      $("html").style.overflowY = "hidden";
+    } else {
+      $("html").style.overflowY = "scroll";
+    }
+  });
+})();
+</script>
+
+  </body>
+</html>
