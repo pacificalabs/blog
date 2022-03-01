@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Pacifica Labs</title>
+    <link>/blog/</link>
+    <description>Recent content in Blog on Pacifica Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <lastBuildDate>Fri, 23 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Has and Belongs To Many (Headaches)</title>
+      <link>/blog/has-and-belongs-to-many/</link>
+      <pubDate>Fri, 23 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/has-and-belongs-to-many/</guid>
+      <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
+Why this matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
+New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here</description>
+    </item>
+    
+    <item>
+      <title>How-To-Guide: Publish your Hugo-built static site online.</title>
+      <link>/blog/tips-on-deploying-static-sites-built-with-hugo/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/tips-on-deploying-static-sites-built-with-hugo/</guid>
+      <description>Background Hugo is a superfast framework built in Googles own language Go.
+When reviewing a static site generator our team were frustrated with the slow build time of Jekyll.
+The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.
+Deploying Hugo is not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
+    </item>
+    
+    <item>
+      <title>Embedded Markdown test</title>
+      <link>/blog/embedded-markdown-test/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/embedded-markdown-test/</guid>
+      <description>Vice President Harris will visit the U.S.-Mexico border while in El Paso, Texas, on Friday, Politico first reported and Axios confirmed. Why it matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
+New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/blog/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>/blog/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>/blog/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>/blog/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/blog/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
