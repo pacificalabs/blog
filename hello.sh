@@ -4,19 +4,23 @@ NC="\e[0m" # No Color
 clear
 echo -e "${RED}******DEPLOY HUGO******${NC}"
 IFS= read -r -p "Enter your commit message: " commitMessage
-echo "${RED} DELETING PUBLIC FOLDER"
+echo -e "\n"
+echo -e "${RED} DELETING PUBLIC FOLDER"
 rm -rf public/
+echo -e "\n"
 echo -e "${RED} REBUILDING PUBLIC FOLDER"
 hugo
 git add public 
 git commit -m "$commitMessage"
-echo -e "PUSHING SUBTREE BRANCH"
+echo -e "\n"
+echo -e "${RED} PUSHING SUBTREE BRANCH"
 git push origin `git subtree split --prefix public master`:gh-pages --force
-echo -e "PUSHING TO MASTER"
+echo -e "\n"
+echo -e "${RED} PUSHING TO MASTER"
 git add .
 git commit -m "$commitMessage"
 git push origin master
-echo -e "${RED}pushed commit $commitMessage ${NC}"
-echo -e "${RED}******DEPLOYED******${NC}"
-printf "I ${RED}love${NC} Stack Overflow\n"
+echo -e "${RED} pushed commit $commitMessage ${NC}"
+echo -e "${RED} ******DEPLOYED******${NC}"
+printf "I ${RED}love${BLUE} Stack Overflow\n"
 hugo server --disableFastRender
