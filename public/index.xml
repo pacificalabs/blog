@@ -6,7 +6,7 @@
     <description>Recent content on Pacifica Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Services</title>
       <link>/gallery/services/</link>
@@ -62,6 +62,19 @@
     </item>
     
     <item>
+      <title>Has and Belongs To Many (Headaches)</title>
+      <link>/blog/has-and-belongs-to-many/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/has-and-belongs-to-many/</guid>
+      <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
+Why this matters: One of the more complicated associations&amp;hellip;..
+New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here
+Go Deeper&amp;hellip; (Major Link Here)
+ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
+    </item>
+    
+    <item>
       <title>How-To-Guide: Publish your Hugo-built static site online.</title>
       <link>/blog/tips-on-deploying-static-sites-built-with-hugo/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
@@ -81,19 +94,6 @@ Deploying Hugo is not at all straightforward &amp;amp; the options on the Hugo w
       <guid>/blog/embedded-markdown-test/</guid>
       <description>Vice President Harris will visit the U.S.-Mexico border while in El Paso, Texas, on Friday, Politico first reported and Axios confirmed. Why it matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
 New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here</description>
-    </item>
-    
-    <item>
-      <title>Has and Belongs To Many (Headaches)</title>
-      <link>/blog/has-and-belongs-to-many/</link>
-      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/has-and-belongs-to-many/</guid>
-      <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
-Why this matters: One of the more complicated associations&amp;hellip;..
-New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here
-Go Deeper&amp;hellip; (Major Link Here)
-ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
     </item>
     
     <item>

@@ -1,7 +1,7 @@
 +++
 author = "Pacifica Labs"
 title = "Has and Belongs To Many (Headaches)"
-date = "2021-03-01"
+date = "2022-03-01"
 description = "We provide tips to make the setup of HABTM associations painfree."
 tags = [
     "ruby-on-rails",
