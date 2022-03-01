@@ -2,13 +2,13 @@ RED="\e[31m"
 BLUE="\e[34m"
 NC="\e[0m" # No Color
 clear
-echo -e "${RED}******DEPLOY HUGO******${NC}"
+echo -e "\n${RED}******DEPLOY HUGO******${NC}"
 IFS= read -r -p "Enter your commit message: " commitMessage
 echo -e "\n"
-echo -e "${RED} DELETING PUBLIC FOLDER"
+echo -e "${RED}DELETING PUBLIC FOLDER"
 rm -rf public/
 echo -e "\n"
-echo -e "${RED} REBUILDING PUBLIC FOLDER"
+echo -e "${RED}REBUILDING PUBLIC FOLDER"
 hugo
 git add public 
 git commit -m "$commitMessage"
