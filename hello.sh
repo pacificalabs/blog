@@ -9,12 +9,12 @@ rm -rf public/
 echo -e "${RED} REBUILDING PUBLIC FOLDER"
 hugo
 git add public 
-git commit -m $commitMessage
+git commit -m "$commitMessage"
 echo -e "PUSHING SUBTREE BRANCH"
 git push origin `git subtree split --prefix public master`:gh-pages --force
 echo -e "PUSHING TO MASTER"
 git add .
-git commit -m $commitMessage
+git commit -m "$commitMessage"
 git push origin master
 echo -e "${RED}pushed commit $commitMessage ${NC}"
 echo -e "${RED}******DEPLOYED******${NC}"
