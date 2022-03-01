@@ -1,7 +1,7 @@
 +++
 author = "Pacifica Labs"
 title = "Has and Belongs To Many (Headaches)"
-date = "2021-07-23"
+date = "2021-03-01"
 description = "We provide tips to make the setup of HABTM associations painfree."
 tags = [
     "ruby-on-rails",
@@ -16,7 +16,8 @@ The HABTM association is often confusing & can lead to frustration if defined in
 
 ### ***Why this matters:***
 
-Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
+One of the more complicated associations.....
+
 
 ### ***New Lead Sentence:***
 - Bullet Point
