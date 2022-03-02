@@ -13,7 +13,7 @@ tags = [
 ]
 +++
 ### Background
-[Hugo](www.gohugo.com) is a superfast framework built in Googles own language Go. 
+[Hugo](https://www.gohugo.com) is a superfast framework built in Googles own language Go. 
 
 When reviewing a static site generator our team were frustrated with the slow build time of Jekyll. 
 
