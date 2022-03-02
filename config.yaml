@@ -3,12 +3,11 @@ baseURL: ""
 languageCode: "en-AU"
 theme: "osprey-delight"
 tags: ["personal", "homepage", "portfolio"]
-# canonifyURLS: false
 relativeURLs: true
-#googleAnalytics: ""
 disableKinds: ["taxonomy", "taxonomyTerm"]
 enableEmoji: true
 pygmentsUseClasses: true
+timeZone: "Australia/Sydney"
 
 ## Generic theme parameters:
 Params:
