@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-AU">
-  
+
 
 <head>
-  <title>How-To-Guide: Publish your Hugo-built static site online. | Pacifica Labs</title>
-  <meta name="title" content="How-To-Guide: Publish your Hugo-built static site online. | Pacifica Labs">
+  <title>Step-By-Step-Guide: Deploy your Hugo-built static site online. | Pacifica Labs</title>
+  <meta name="title" content="Step-By-Step-Guide: Deploy your Hugo-built static site online. | Pacifica Labs">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -16,7 +16,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@pacifica-labs">
   <meta name="twitter:creator" content="@pacifica-labs">
-  <meta property="og:title" content="How-To-Guide: Publish your Hugo-built static site online. | Pacifica Labs">
+  <meta property="og:title" content="Step-By-Step-Guide: Deploy your Hugo-built static site online. | Pacifica Labs">
   <meta property="og:type" content="website">
   <meta property="og:url" content="/blog/tips-on-deploying-static-sites-built-with-hugo/">
   <meta property="og:image" content="/images/pacifica_logo_blue.png">
@@ -35,7 +35,8 @@
   
   
 </head>
-  <body>
+
+<body>
     
 
 <nav class="row middle-xs center-xs nav-fixed nav-shadow">
@@ -98,47 +99,54 @@
   </div>
 </section>
     <main>
-      <section class="container">
-        <section class="content">
-          <h1 class="blog-header"> How-To-Guide: Publish your Hugo-built static site online. </h1>
-          <div class="sub-header">
-            Updated: July 22, 2021
-          </div>
-          <div class="sub-header">
-            
-            <h3>
-            Follow these straightforward steps to deploy your static site built with Hugo for free.
-            </h3>
-            
-          </div>
-          <div class="sub-header">
-            
-            <h3>
-            <i>Why it matters:</i>
-            </h3>
-            Though hosting a free static site sounds tempting, deployment version tracking &amp; configuration can be fraught with unforeseen difficulties.
-            
-          </div>
-          <article class="entry-content">
-            <h3 id="background">Background</h3>
-<p><a href="https://www.gohugo.com">Hugo</a> is a superfast framework built in Googles own language Go.</p>
-<p>When reviewing a static site generator our team were frustrated with the slow build time of Jekyll.</p>
-<p>The motto of Hugo is build sites lightning fast &amp; the build time doesn&rsquo;t disappoint.</p>
-<p><em>Deploying Hugo is not at all straightforward &amp; the options on the Hugo website don&rsquo;t really offer anything that&rsquo;s fast to setup &amp; user friendly to maintain. Below some considerations when choosing a static site&hellip;.</em></p>
+        <section class="container">
+            <section class="content">
+                <h1 class="blog-header"> Step-By-Step-Guide: Deploy your Hugo-built static site online. </h1>
+                <div class="sub-header">
+                    Updated: July 22, 2021
+                </div>
+                <div class="sub-header">
+                    
+                    <h3>
+                        Follow these straightforward steps to deploy your static site built with Hugo for free.
+                    </h3>
+                    
+                </div>
+                <div class="sub-header">
+                    
+                    <h3>
+                        <i>Why this matters:</i>
+                    </h3>
+                    Though hosting a free static site sounds tempting, configuration &amp; version tracking during deployment can be fraught with unforeseen difficulties.
+                    
+                </div>
+                <article class="entry-content">
+                    <h3 id="background">Background</h3>
+<p>When selecting a static site generator our team were frustrated with the slow build time of Jekyll.</p>
+<p>We eventually settled upon <a href="https://www.gohugo.com">Hugo</a>, the superfast framework built in Googles own language Go.</p>
+<p>The motto of Hugo is build sites lightning fast &amp; the <a href="https://stackshare.io/stackups/hugo-vs-jekyll#:~:text=Generally%20speaking%2C%20Hugo%20builds%20sites,is%20to%20stay%20extremely%20fast.">build time</a> doesn&rsquo;t disappoint.</p>
+<p><em>Deploying static sites are not at all straightforward &amp; the options on the Hugo website don&rsquo;t really offer anything that&rsquo;s fast to setup &amp; user friendly to maintain. Below is our guide to quickly deploying your Hugo site&hellip;.</em></p>
 <h3 id="assumptions--prerequisites">Assumptions &amp; Prerequisites</h3>
 <ol>
-<li>You have Hugo installed &amp; you&rsquo;re ready to publish your site online.</li>
+<li>You have Hugo installed</li>
+<li>You&rsquo;re ready to publish your content online.</li>
 <li>You have initialized your root folder with git &amp; have made a number of commitments.</li>
 </ol>
 <h3 id="steps">Steps:</h3>
 <ol>
-<li>Ensure your rootURl located in the config file (file extension will be either YAML or TOML) has &quot; &quot; &amp; not a url.</li>
+<li>Ensure your baseURl is an empty string &amp; not a url.</li>
 </ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># config.yaml</span>
 </span></span><span class="line"><span class="cl">title: <span class="s2">&#34;Pacifica Labs&#34;</span>
 </span></span><span class="line"><span class="cl">baseURL: <span class="s2">&#34;&#34;</span>  <span class="c1"># note the absence of any url</span>
 </span></span><span class="line"><span class="cl">languageCode: <span class="s2">&#34;en-AU&#34;</span>
-</span></span></code></pre></div><p>1a. <em>Start by building your static site</em></p>
+</span></span></code></pre></div><ol start="2">
+<li>Ensure Hugo builds all your content from scratch by removing your public folder:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">rm -rf public/
+</span></span></code></pre></div><ol start="3">
+<li><em>Build your static site content</em>&hellip;</li>
+</ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo
 </span></span><span class="line"><span class="cl">Start building sites …
 </span></span><span class="line"><span class="cl">
@@ -154,7 +162,9 @@
 </span></span><span class="line"><span class="cl">  Cleaned          <span class="p">|</span>  <span class="m">0</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">Total in <span class="m">263</span> ms
-</span></span></code></pre></div><p>2a) You will have content in the public folder</p>
+</span></span></code></pre></div><ol start="3">
+<li>You will see newly compiled content in the <em>public</em> folder:</li>
+</ol>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl">$ ls public/
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">404.html
@@ -170,38 +180,54 @@
 </span></span><span class="line"><span class="cl"><span class="o">(</span>...<span class="o">)</span>
 </span></span><span class="line"><span class="cl"><span class="o">(</span>...<span class="o">)</span>
 </span></span><span class="line"><span class="cl"><span class="o">(</span>etc<span class="o">)</span>
-</span></span></code></pre></div><p>2b. Create an empty repository on github, setup pages &amp; install a README</p>
-<p>3a. Copy the git URL for the repository</p>
-<pre tabindex="0"><code>$ git submodule add URL public/
-(repository is cloned)
-</code></pre><p>3b. cd into the public folder , commit the changes and deploy</p>
-<p>4a. cd into the root folder, commit these changes as well</p>
-<p>5a you should be able to see commit at github</p>
+</span></span></code></pre></div><ol start="4">
+<li>Create an empty repository on <a href="https://docs.github.com/en/get-started/quickstart/create-a-repo">github</a> and commit your entire project folder:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
+</span></span></code></pre></div><ol start="5">
+<li>
+<p>Create a new branch called gh-pages which is the branch github pages will read from when deploying the static site:</p>
+</li>
+<li>
+<p>Create a subtree</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git push origin <span class="sb">`</span>git subtree split --prefix public master<span class="sb">`</span>:gh-pages --force
+</span></span></code></pre></div><ol start="7">
+<li>
+<p>Wait til the pages notification changes from <em>blue</em> to <em>green</em></p>
+</li>
+<li>
+<p>Confirm your changes!</p>
+</li>
+</ol>
 <h4 id="the-big-picture">The Big Picture:</h4>
-<p>Conclusion goes here</p>
+<p>Key steps in deploying a Hugo repository require subtree usage.</p>
 <h4 id="go-deeper">Go Deeper&hellip;</h4>
 <p>(Further reading links here)
-[]
-** Here ** is a bash script I have written to automate the deployment process.</p>
+This is a <a href="https://gist.github.com/pacificalabs/27b60e18d0c1a472d6f7cde1350cde15">bash script</a> I have written to automate the above steps of the deployment process.</p>
 <h4 id="appendix"><em><strong>Appendix</strong></em></h4>
 <ol>
 <li>The <a href="https://jamstack.org/generators/">top 4</a> global static site generators were Next.js, Hugo &amp; Gatsby &amp; Jekyll.</li>
 <li>In benchmarking tests Hugo compiled <a href="https://forestry.io/blog/hugo-vs-jekyll-benchmark/#tl-dr">23x</a> faster than Jekyll.</li>
 </ol>
 
-          </article>
-          <div class="pagination">
+                </article>
+                <div class="pagination">
+                    
+                    <a href="../../blog/embedded-markdown-test/">&laquo; Embedded Markdown test</a>
+                    
+                    
+                    <a href="../../blog/has-and-belongs-to-many/">Has and Belongs To Many (Headaches) &raquo;</a>
+                    
+                </div>
+            </section>
+            <br>
             
-            <a href="../../blog/embedded-markdown-test/">&laquo; Embedded Markdown test</a>
-            
-            
-            <a href="../../blog/has-and-belongs-to-many/">Has and Belongs To Many (Headaches) &raquo;</a>
-            
-          </div>
         </section>
-        <br>
-        
-      </section>
     </main>
     <footer id="footr">
   <div class="row center-xs social">
@@ -280,5 +306,6 @@
 })();
 </script>
 
-  </body>
+</body>
+
 </html>
