@@ -1,41 +1,48 @@
 +++
 author = "Pacifica Labs"
-title = "How-To-Guide: Publish your Hugo-built static site online."
+title = "Step-By-Step-Guide: Deploy your Hugo-built static site online."
 date = "2021-07-22"
 description = "Follow these straightforward steps to deploy your static site built with Hugo for free."
-whyitmatters = "Though hosting a free static site sounds tempting, deployment version tracking & configuration can be fraught with unforeseen difficulties."
+whythismatters = "Though hosting a free static site sounds tempting, configuration & version tracking during deployment can be fraught with unforeseen difficulties."
 tags = [
     "hugo",
     "static-site",
     "developer",
-    "github",
+    "github-pages",
     "easy"
 ]
 +++
 ### Background
-[Hugo](https://www.gohugo.com) is a superfast framework built in Googles own language Go. 
+When selecting a static site generator our team were frustrated with the slow build time of Jekyll. 
 
-When reviewing a static site generator our team were frustrated with the slow build time of Jekyll. 
+We eventually settled upon [Hugo](https://www.gohugo.com), the superfast framework built in Googles own language Go. 
 
-The motto of Hugo is build sites lightning fast & the build time doesn't disappoint.
+The motto of Hugo is build sites lightning fast & the [build time](https://stackshare.io/stackups/hugo-vs-jekyll#:~:text=Generally%20speaking%2C%20Hugo%20builds%20sites,is%20to%20stay%20extremely%20fast.) doesn't disappoint.
 
-*Deploying Hugo is not at all straightforward & the options on the Hugo website don't really offer anything that's fast to setup & user friendly to maintain. Below some considerations when choosing a static site....*  
+*Deploying static sites are not at all straightforward & the options on the Hugo website don't really offer anything that's fast to setup & user friendly to maintain. Below is our guide to quickly deploying your Hugo site....*  
 
 ### Assumptions & Prerequisites
-1. You have Hugo installed & you're ready to publish your site online.
-2. You have initialized your root folder with git & have made a number of commitments.
+1. You have Hugo installed
+2. You're ready to publish your content online.
+3. You have initialized your root folder with git & have made a number of commitments.
 
 ### Steps:
 
-1. Ensure your rootURl located in the config file (file extension will be either YAML or TOML) has " " & not a url.
+1. Ensure your baseURl is an empty string & not a url.
 ```bash
 # config.yaml
 title: "Pacifica Labs"
 baseURL: ""  # note the absence of any url
 languageCode: "en-AU"
 ```
-   
-1a. *Start by building your static site*
+2. Ensure Hugo builds all your content from scratch by removing your public folder:
+
+```bash
+rm -rf public/
+
+```
+
+3. *Build your static site content*...
   
 ```bash
 $ hugo
@@ -55,7 +62,7 @@ Start building sites …
 Total in 263 ms
 ``` 
 
- 2a) You will have content in the public folder
+ 3. You will see newly compiled content in the *public* folder:
 
 ```sh
 $ ls public/
@@ -76,31 +83,35 @@ index.html
 
 ```
 
-2b. Create an empty repository on github, setup pages & install a README
+4. Create an empty repository on [github](https://docs.github.com/en/get-started/quickstart/create-a-repo) and commit your entire project folder:
 
-3a. Copy the git URL for the repository
+```bash
 
-``` 
-$ git submodule add URL public/
-(repository is cloned)
+git add .
+
+git commit -m "first commit"
 
 ```
-3b. cd into the public folder , commit the changes and deploy
 
-4a. cd into the root folder, commit these changes as well
+5. Create a new branch called gh-pages which is the branch github pages will read from when deploying the static site:
 
-5a you should be able to see commit at github
+6. Create a subtree
+ 
+```bash
+git push origin `git subtree split --prefix public master`:gh-pages --force
+```
+
+7. Wait til the pages notification changes from *blue* to *green*
+
+8. Confirm your changes!
 
 #### The Big Picture:
 
-Conclusion goes here
+Key steps in deploying a Hugo repository require subtree usage.
 
 #### Go Deeper... 
 (Further reading links here)
-[]
-** Here ** is a bash script I have written to automate the deployment process.
-
-
+This is a [bash script](https://gist.github.com/pacificalabs/27b60e18d0c1a472d6f7cde1350cde15) I have written to automate the above steps of the deployment process.
 
 #### ***Appendix***
 
