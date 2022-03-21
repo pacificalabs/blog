@@ -1,9 +1,9 @@
 ---
-weight: 2
+weight: 5
 date: "2019-09-18T21:57:17-07:00"
 title: "We're hiring"
-image: "pacifica_logo_heatwave.png"
-color: "#fad24d"
+image: "circle-cropped.png"
+color: "#4E9972"
 type: "github"
 github:
     repo: "kdevo/osprey"
