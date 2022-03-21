@@ -1,4 +1,4 @@
-# Focussed on the thoughtful & loving creation of technology.
+# A full service Digital Design Agency.
 
 ## Made in Australia.
 
