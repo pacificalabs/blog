@@ -2,39 +2,48 @@
 <html lang="en-AU" class="no-js">
   
 
+
 <head>
 	<meta name="generator" content="Hugo 0.93.0" />
-  <title>Pacifica Labs</title>
-  <meta name="title" content="Pacifica Labs">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <base href="">
-  <meta name="description" content="Pacifica - Homepage">
-  <meta name="author" content="pacifica-labs">
-  
-  
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@pacifica-labs">
-  <meta name="twitter:creator" content="@pacifica-labs">
-  <meta property="og:title" content="Pacifica Labs">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="/">
-  <meta property="og:image" content="/images/pacifica_logo_blue.png">
-  
-  <meta property="og:description" content="Pacifica - Homepage">
-  
-  <link rel="canonical" href="./">
-  
-  <link href="./index.xml" rel="alternate" type="application/rss+xml" title="Pacifica Labs">
-  <link rel="stylesheet" href="./style.7c9c40e553ff238b9322d0fa0618f427f8e5215e263174c0e4de48595067e34c.css">
-  
-  
-  
-  <script src="./js/vendor/lazysizes.min.js" async></script>
-  
-  
-  
+    <title>Pacifica Labs</title>
+    <meta name="title" content="Pacifica Labs">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <base href="">
+    <meta name="description" content="Pacifica - Homepage">
+    <meta name="author" content="pacifica-labs">
+    
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pacifica-labs">
+    <meta name="twitter:creator" content="@pacifica-labs">
+    <meta property="og:title" content="Pacifica Labs">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="/images/pacifica_logo_blue.png">
+    
+    <meta property="og:description" content="Pacifica - Homepage">
+    
+    <link rel="canonical" href="./">
+    <link href="./index.xml" rel="alternate" type="application/rss+xml" title="Pacifica Labs">
+    <link rel="stylesheet" href="./style.7c9c40e553ff238b9322d0fa0618f427f8e5215e263174c0e4de48595067e34c.css">
+    
+    
+    
+    <script src="./js/vendor/lazysizes.min.js" async></script>
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HG3S1LQSRJ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-HG3S1LQSRJ');
+    </script>
+    
+    
 </head>
   <body>
     
@@ -205,7 +214,7 @@ height="300"
   </div>
   <div class="row center-xs">
     <div class="col-xs-12 middle-xs">
-      <h1 id="a-full-service-digital-design-agency">A full service Digital Design Agency.</h1>
+      <h1 id="a-full-service-digital-agency">A Full Service Digital Agency.</h1>
 <h2 id="made-in-australia">Made in Australia.</h2>
 <h2 id="worldwide-since-2013">Worldwide since 2013.</h2>
 
@@ -570,7 +579,7 @@ height="400"
       </div>
     
       
-      <div class="gallery-item col-xs-12 col-md-6 col-lg-3" onclick style="background-color:#8502CC">
+      <div class="gallery-item col-xs-12 col-md-6 col-lg-3" onclick style="background-color:#007DB3">
         
 
 
@@ -616,7 +625,7 @@ height="400"
 
     style="width: 400px; height: auto;"
 ></div>
-<div class="row center-xs middle-xs overlay" style="background-color: #8502CC">
+<div class="row center-xs middle-xs overlay" style="background-color: #007DB3">
 	
 <a href="#portfolio" class="gallery-modal-link" id="portfolio"></a>
 	<div class="col-xs">
@@ -1315,7 +1324,7 @@ height="400"
     <span class="close icon icon-cancel"></span>
     <div class="modal-container">
       <div class="modal-header">
-        <div class="modal-header-img-container" style="background-color:#8502CC">
+        <div class="modal-header-img-container" style="background-color:#007DB3">
           
 
 
@@ -1957,11 +1966,6 @@ height="400"
     });
     $$(".gallery-item").forEach((item) => {
       item.addEventListener("mouseover", (e) => {
-        let textOptions = { "Services": "Services", "Technology": "TECH", "We're hiring": "Vacancies" };
-        if (textOptions[item.innerText]) {
-          $("#Work").innerText = textOptions[item.innerText];
-        }
-        ;
         $("#Work").style.color = item.style.backgroundColor;
         $("#Work").style.borderBottom = "3px solid";
       });
