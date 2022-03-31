@@ -61,8 +61,8 @@
 
     $$(".gallery-item").forEach((item) => {
         item.addEventListener('mouseover', (e) => {
-            let textOptions = { "Services": "Services", "Technology": "TECH", "We're hiring": "Vacancies"};
-            if (textOptions[item.innerText] ) { $('#Work').innerText = textOptions[item.innerText]};
+            // let textOptions = { "Services": "Services", "Technology": "TECH", "We're hiring": "Vacancies" };
+            // if (textOptions[item.innerText]) { $('#Work').innerText = textOptions[item.innerText] };
             $('#Work').style.color = item.style.backgroundColor;
             $('#Work').style.borderBottom = "3px solid"
         })
@@ -72,8 +72,8 @@
         ITEMS.forEach((item) => {
             var colourStyles = window.getComputedStyle(item);
             var borderStyle = colourStyles.getPropertyValue('borderBottom');
-            if (item.innerText == "work" && borderStyle != "" )  {
-            item.style.borderBottom = "3px solid";
+            if (item.innerText == "work" && borderStyle != "") {
+                item.style.borderBottom = "3px solid";
             }
         })
     })

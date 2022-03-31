@@ -1,4 +1,4 @@
-# A full service Digital Design Agency.
+# A Full Service Digital Agency.
 
 ## Made in Australia.
 
