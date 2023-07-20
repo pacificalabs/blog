@@ -1,9 +1,12 @@
-.bloglist-title {
-    background: #0097A7;
+table {
+    min-width: 100%;
 }
+
 .bloglist-title {
+    background-color: #0097A7;
     color: #fff;
 }
+
 .blog-header {
     color: teal;
 }
@@ -11,6 +14,7 @@
 .list-group-horizontal .list-group-item {
     display: inline;
     margin: 0px 0.3rem 0px .1rem;
+    font-style: italic;
 }
 
 // Code

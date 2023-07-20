@@ -110,6 +110,11 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-HG3S1LQSRJ');
+
+    const url = window.location.href;
+    
+    if (url.search(/qr/) >= 0) {window.location.href = "/"};
+
     </script>
     <!--     {{ if .Site.GoogleAnalytics }}
   {{ template "_internal/google_analytics_async.html" . }}

@@ -2,13 +2,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>/services1/</loc>
-      <lastmod>2017-05-12T22:25:02-07:00</lastmod>
-    </url>
-  
-    <url>
-      <loc>/kdevo/</loc>
-      <lastmod>2019-05-17T22:25:16-07:00</lastmod>
+      <loc>/blog/bash-keyboard-shortcuts/</loc>
+      <lastmod>2022-12-10T00:00:00+11:00</lastmod>
     </url>
   
     <url>
@@ -37,11 +32,6 @@
     </url>
   
     <url>
-      <loc>/blog/placeholder-text/</loc>
-      <lastmod>2019-03-09T00:00:00+11:00</lastmod>
-    </url>
-  
-    <url>
       <loc>/blog/math-typesetting/</loc>
       <lastmod>2019-03-08T00:00:00+11:00</lastmod>
     </url>
@@ -53,7 +43,10 @@
   
     <url>
       <loc>/about/</loc>
-      <priority>0</priority>
+    </url>
+  
+    <url>
+      <loc>/qr/</loc>
     </url>
   
 </urlset>

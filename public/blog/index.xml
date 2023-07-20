@@ -6,7 +6,17 @@
     <description>Recent content in Blog on Pacifica Labs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
-    <lastBuildDate>Wed, 02 Mar 2022 00:00:00 +1100</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +1100</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash Keyboard Shortcuts Every Software Engineer Should Know</title>
+      <link>/blog/bash-keyboard-shortcuts/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +1100</pubDate>
+      
+      <guid>/blog/bash-keyboard-shortcuts/</guid>
+      <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.
+Keys Description ctrl + A go to the START of the current line ctrl + E go to the END of the current line ctrl + L clear the screen ctrl + U clear the line BEFORE the cursor position ctrl + K clear the line AFTER the cursor position (if you are at the end of the line the entire line is cleared) alt + F move forward one word position alt + B move backwards one word position tab autocomplete file &amp;amp; folder names&amp;hellip; &amp;hellip;based on existing folder contents The Big Picture: Just like the venerable shortcuts CTRL-C for COPY &amp;amp; CTRL-V for PASTE, once you practice these they will speed your navigation - &amp;amp; productivity.</description>
+    </item>
+    
     <item>
       <title>Has and Belongs To Many (Headaches)</title>
       <link>/blog/has-and-belongs-to-many/</link>
@@ -15,7 +25,7 @@
       <guid>/blog/has-and-belongs-to-many/</guid>
       <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
 Why this matters: One of the more complicated associations&amp;hellip;..
-New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here
+New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
 Go Deeper&amp;hellip; (Major Link Here)
 ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
     </item>
@@ -39,7 +49,8 @@ Deploying static sites are not at all straightforward &amp;amp; the options on t
       
       <guid>/blog/embedded-markdown-test/</guid>
       <description>Vice President Harris will visit the U.S.-Mexico border while in El Paso, Texas, on Friday, Politico first reported and Axios confirmed. Why it matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
-New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here</description>
+New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
+Go Deeper&amp;hellip; Instagram has a great description.</description>
     </item>
     
     <item>
@@ -58,15 +69,6 @@ New Lead Sentence:  Bullet Point  The Big Picture: Sentence continues here</desc
       
       <guid>/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/blog/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +1100</pubDate>
-      
-      <guid>/blog/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
     
     <item>

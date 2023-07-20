@@ -4,33 +4,33 @@
 
 
 <head>
-    <title>KDEVO | Pacifica Labs</title>
-    <meta name="title" content="KDEVO | Pacifica Labs">
+    <title>Bash Keyboard Shortcuts Every Software Engineer Should Know | Pacifica Labs</title>
+    <meta name="title" content="Bash Keyboard Shortcuts Every Software Engineer Should Know | Pacifica Labs">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <base href="">
-    <meta name="description" content="Pacifica - Homepage">
+    <meta name="description" content="16 essential keyboard shortcuts for Bash">
     <meta name="author" content="pacifica-labs">
     
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@pacifica-labs">
     <meta name="twitter:creator" content="@pacifica-labs">
-    <meta property="og:title" content="KDEVO | Pacifica Labs">
+    <meta property="og:title" content="Bash Keyboard Shortcuts Every Software Engineer Should Know | Pacifica Labs">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/kdevo/">
+    <meta property="og:url" content="/blog/bash-keyboard-shortcuts/">
     <meta property="og:image" content="/images/pacifica_logo_blue.png">
     
-    <meta property="og:description" content="Pacifica - Homepage">
+    <meta name="og:description" content="16 essential keyboard shortcuts for Bash">
     
-    <link rel="canonical" href="../kdevo/">
+    <link rel="canonical" href="../../blog/bash-keyboard-shortcuts/">
     
-    <link rel="stylesheet" href="../style.7710902ec5698c353662bdc8d0d5838ad108dd80e7b01a1f038477aacaf3550d.css">
+    <link rel="stylesheet" href="../../style.7710902ec5698c353662bdc8d0d5838ad108dd80e7b01a1f038477aacaf3550d.css">
     
     
     
-    <script src="../js/vendor/lazysizes.min.js" async></script>
+    <script src="../../js/vendor/lazysizes.min.js" async></script>
     
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HG3S1LQSRJ"></script>
@@ -40,6 +40,11 @@
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-HG3S1LQSRJ');
+
+    const url = window.location.href;
+    
+    if (url.search(/qr/) >= 0) {window.location.href = "/"};
+
     </script>
     
     
@@ -50,7 +55,7 @@
 
 <nav class="row middle-xs center-xs nav-fixed nav-shadow">
   <div class="col-xs-6 col-sm-1 logo" style="visibility: visible;">
-    <a href="../#">
+    <a href="../../#">
       
       
       
@@ -60,7 +65,7 @@
       
       <img
       
-      data-src="../navlogo.png"
+      data-src="../../navlogo.png"
       class="lazyload"
       
       alt="Home"
@@ -71,19 +76,19 @@
   </div>
   
   <div class="col-xs-3 col-sm-2 nav-item">
-    <h3><a id="About" href="../#about">About</a></h3>
+    <h3><a id="About" href="../../#about">About</a></h3>
   </div>
   
   <div class="col-xs-3 col-sm-2 nav-item">
-    <h3><a id="Work" href="../#work">Work</a></h3>
+    <h3><a id="Work" href="../../#work">Work</a></h3>
   </div>
   
   <div class="col-xs-3 col-sm-2 nav-item">
-    <h3><a id="Blog" href="../#blog">Blog</a></h3>
+    <h3><a id="Blog" href="../../#blog">Blog</a></h3>
   </div>
   
   <div class="col-xs-3 col-sm-2 nav-item">
-    <h3><a id="Contact" href="../#contact">Contact</a></h3>
+    <h3><a id="Contact" href="../../#contact">Contact</a></h3>
   </div>
   
   <div class="col-xs-6 col-sm-1 nav-toggle" style="visibility: visible;">
@@ -96,13 +101,13 @@
   <div class="col-xs-12">
     <div class="row middle-xs center-xs">
       
-      <div class="col-xs-12"><h1><a href="../#about">About</a></h1></div>
+      <div class="col-xs-12"><h1><a href="../../#about">About</a></h1></div>
       
-      <div class="col-xs-12"><h1><a href="../#work">Work</a></h1></div>
+      <div class="col-xs-12"><h1><a href="../../#work">Work</a></h1></div>
       
-      <div class="col-xs-12"><h1><a href="../#blog">Blog</a></h1></div>
+      <div class="col-xs-12"><h1><a href="../../#blog">Blog</a></h1></div>
       
-      <div class="col-xs-12"><h1><a href="../#contact">Contact</a></h1></div>
+      <div class="col-xs-12"><h1><a href="../../#contact">Contact</a></h1></div>
       
     </div>
   </div>
@@ -110,26 +115,84 @@
     <main>
         <section class="container">
             <section class="content">
-                <h1 class="blog-header"> KDEVO </h1>
+                <h1 class="blog-header"> Bash Keyboard Shortcuts Every Software Engineer Should Know </h1>
                 <div class="sub-header">
-                    Last Updated: May 17, 2019
+                    Last Updated: December 10, 2022
                 </div>
                 <div class="sub-header">
+                    
+                    <h3>
+                        16 essential keyboard shortcuts for Bash
+                    </h3>
                     
                 </div>
                 <div class="sub-header">
                     
                 </div>
                 <article class="entry-content">
-                    <p>Author of Osprey Delight.</p>
+                    <h3 id="why-it-matters">Why it matters:</h3>
+<p><em>For any software engineer of note, your time is always at a premium, so the ability to quickly &amp; efficiently navigate your way around the terminal will boost your productivity no end.</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Keys</th>
+<th style="text-align:right">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">ctrl + A</td>
+<td style="text-align:right"><em>go to the START of the current line</em></td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl + E</td>
+<td style="text-align:right"><em>go to the END of the current line</em></td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl + L</td>
+<td style="text-align:right"><em>clear the screen</em></td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl + U</td>
+<td style="text-align:right"><em>clear the line BEFORE the cursor position</em></td>
+</tr>
+<tr>
+<td style="text-align:left">ctrl + K</td>
+<td style="text-align:right"><em>clear the line AFTER the cursor position</em></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:right"><em>(if you are at the end of the line the entire line is cleared)</em></td>
+</tr>
+<tr>
+<td style="text-align:left">alt + F</td>
+<td style="text-align:right"><em>move forward one word position</em></td>
+</tr>
+<tr>
+<td style="text-align:left">alt + B</td>
+<td style="text-align:right"><em>move backwards one word position</em></td>
+</tr>
+<tr>
+<td style="text-align:left">tab</td>
+<td style="text-align:right"><em>autocomplete file &amp; folder names&hellip;</em></td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:right"><em>&hellip;based on existing folder contents</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="the-big-picture">The Big Picture:</h3>
+<p>Just like the venerable shortcuts
+<code>CTRL-C for</code> COPY &amp; <code>CTRL-V</code> for PASTE, once you practice these they will speed your navigation - &amp; productivity.</p>
+<h4 id="go-deeper">Go Deeper&hellip;</h4>
+<p>Further Reading: <a href="www.redhat.com/sysadmin/shortcuts-command-line-navigation">RedHatDotCom</a>.</p>
 
                 </article>
                 <div class="pagination">
                     
-                    <a href="../about/">&laquo; </a>
+                    <a href="../../blog/has-and-belongs-to-many/">&laquo; Has and Belongs To Many (Headaches)</a>
                     
-                    
-                    <a href="../services1/">Services &raquo;</a>
                     
                 </div>
             </section>
