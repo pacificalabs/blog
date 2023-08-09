@@ -75,6 +75,7 @@ Params:
   
   # Expert mode: Configure image resizing (some of the settings are not yet publicly documented)
   Image:
+    Url: "about"
     Logo:
       resize: "300x"
 
