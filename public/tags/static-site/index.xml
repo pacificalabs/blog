@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>static-site on </title>
+    <link>/tags/static-site/</link>
+    <description>Recent content in static-site on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +1000</lastBuildDate>
+    <atom:link href="/tags/static-site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Step-By-Step-Guide: Deploy your Hugo-built static site online.</title>
+      <link>/blog/tips-on-deploying-static-sites-built-with-hugo/</link>
+      <pubDate>Thu, 22 Jul 2021 00:00:00 +1000</pubDate>
+      <guid>/blog/tips-on-deploying-static-sites-built-with-hugo/</guid>
+      <description>Background When selecting a static site generator our team were frustrated with the slow build time of Jekyll.
+We eventually settled upon Hugo, the superfast framework built in Googles own language Go.
+The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.
+Deploying static sites are not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
+    </item>
+  </channel>
+</rss>

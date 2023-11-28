@@ -1,90 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pacifica Labs</title>
+    <title></title>
     <link>/</link>
-    <description>Recent content on Pacifica Labs</description>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
-    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +1100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +1000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Transformation</title>
       <link>/gallery/digital-transformation/</link>
       <pubDate>Fri, 12 May 2017 22:25:02 -0700</pubDate>
-      
       <guid>/gallery/digital-transformation/</guid>
       <description>Here we describe Digital Transformation in all it&amp;rsquo;s forms. </description>
     </item>
-    
     <item>
       <title>Marketing &amp; Social Media</title>
       <link>/gallery/marketing-social-media/</link>
       <pubDate>Mon, 15 May 2017 20:00:16 -0700</pubDate>
-      
       <guid>/gallery/marketing-social-media/</guid>
       <description>Author of the original Osprey theme.</description>
     </item>
-    
     <item>
       <title>Branding &amp; Packaging Design</title>
       <link>/gallery/brand-packaging-design/</link>
       <pubDate>Mon, 15 May 2017 21:57:17 -0700</pubDate>
-      
       <guid>/gallery/brand-packaging-design/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>We&#39;re hiring</title>
       <link>/gallery/vacancies/</link>
       <pubDate>Wed, 18 Sep 2019 21:57:17 -0700</pubDate>
-      
       <guid>/gallery/vacancies/</guid>
       <description>{github-description} Get in touch!</description>
     </item>
-    
     <item>
       <title>Tech Stack</title>
       <link>/gallery/tech-stack/</link>
       <pubDate>Mon, 15 May 2017 21:57:17 -0700</pubDate>
-      
       <guid>/gallery/tech-stack/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Portfolio</title>
       <link>/gallery/portfolio/</link>
       <pubDate>Mon, 15 May 2017 21:57:17 -0700</pubDate>
-      
       <guid>/gallery/portfolio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Testimonials</title>
       <link>/gallery/testimonials/</link>
       <pubDate>Mon, 15 May 2017 21:57:17 -0700</pubDate>
-      
       <guid>/gallery/testimonials/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Bash Keyboard Shortcuts Every Software Engineer Should Know</title>
       <link>/blog/bash-keyboard-shortcuts/</link>
-      <pubDate>Sat, 10 Dec 2022 00:00:00 +1100</pubDate>
-      
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +1000</pubDate>
       <guid>/blog/bash-keyboard-shortcuts/</guid>
       <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.
-Keys Description ctrl + A go to the START of the current line ctrl + E go to the END of the current line ctrl + L clear the screen ctrl + U clear the line BEFORE the cursor position ctrl + K clear the line AFTER the cursor position (if you are at the end of the line the entire line is cleared) alt + F move forward one word position alt + B move backwards one word position tab autocomplete file &amp;amp; folder names&amp;hellip; &amp;hellip;based on existing folder contents The Big Picture: Just like the venerable shortcuts CTRL-C for COPY &amp;amp; CTRL-V for PASTE, once you practice these they will speed your navigation - &amp;amp; productivity.</description>
+ctrl + A #go to the START of the current line ctrl + E #go to the END of the current line ctrl + L #clear the screen ctrl + U #clear the line BEFORE the cursor position ctrl + K #clear the line AFTER the cursor position #NB If you are at the end of the line the entire line is cleared alt + F #move forward one word position alt + B #move backwards one word position tab #autocomplete file &amp;amp; folder names.</description>
     </item>
-    
     <item>
       <title>Has and Belongs To Many (Headaches)</title>
       <link>/blog/has-and-belongs-to-many/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +1100</pubDate>
-      
       <guid>/blog/has-and-belongs-to-many/</guid>
       <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
 Why this matters: One of the more complicated associations&amp;hellip;..
@@ -92,83 +76,66 @@ New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
 Go Deeper&amp;hellip; (Major Link Here)
 ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
     </item>
-    
     <item>
       <title>Step-By-Step-Guide: Deploy your Hugo-built static site online.</title>
       <link>/blog/tips-on-deploying-static-sites-built-with-hugo/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +1000</pubDate>
-      
       <guid>/blog/tips-on-deploying-static-sites-built-with-hugo/</guid>
       <description>Background When selecting a static site generator our team were frustrated with the slow build time of Jekyll.
 We eventually settled upon Hugo, the superfast framework built in Googles own language Go.
 The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.
 Deploying static sites are not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
     </item>
-    
     <item>
       <title>Embedded Markdown test</title>
       <link>/blog/embedded-markdown-test/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +1000</pubDate>
-      
       <guid>/blog/embedded-markdown-test/</guid>
       <description>Vice President Harris will visit the U.S.-Mexico border while in El Paso, Texas, on Friday, Politico first reported and Axios confirmed. Why it matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
 New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
 Go Deeper&amp;hellip; Instagram has a great description.</description>
     </item>
-    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>/blog/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +1100</pubDate>
-      
       <guid>/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rich Content</title>
       <link>/blog/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +1100</pubDate>
-      
       <guid>/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Math Typesetting</title>
       <link>/blog/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +1100</pubDate>
-      
       <guid>/blog/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Emoji Support</title>
       <link>/blog/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +1100</pubDate>
-      
       <guid>/blog/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/about/</guid>
       <description>A Full Service Digital Agency. Made in Australia. Worldwide since 2013. </description>
     </item>
-    
     <item>
       <title></title>
       <link>/qr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>/qr/</guid>
       <description>hello</description>
     </item>
-    
   </channel>
 </rss>

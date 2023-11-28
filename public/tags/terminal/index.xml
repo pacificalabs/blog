@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terminal on </title>
+    <link>/tags/terminal/</link>
+    <description>Recent content in terminal on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +1000</lastBuildDate>
+    <atom:link href="/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bash Keyboard Shortcuts Every Software Engineer Should Know</title>
+      <link>/blog/bash-keyboard-shortcuts/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +1000</pubDate>
+      <guid>/blog/bash-keyboard-shortcuts/</guid>
+      <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.
+ctrl + A #go to the START of the current line ctrl + E #go to the END of the current line ctrl + L #clear the screen ctrl + U #clear the line BEFORE the cursor position ctrl + K #clear the line AFTER the cursor position #NB If you are at the end of the line the entire line is cleared alt + F #move forward one word position alt + B #move backwards one word position tab #autocomplete file &amp;amp; folder names.</description>
+    </item>
+  </channel>
+</rss>

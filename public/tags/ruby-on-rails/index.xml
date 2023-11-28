@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ruby-on-rails on </title>
+    <link>/tags/ruby-on-rails/</link>
+    <description>Recent content in ruby-on-rails on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <lastBuildDate>Wed, 02 Mar 2022 00:00:00 +1100</lastBuildDate>
+    <atom:link href="/tags/ruby-on-rails/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Has and Belongs To Many (Headaches)</title>
+      <link>/blog/has-and-belongs-to-many/</link>
+      <pubDate>Wed, 02 Mar 2022 00:00:00 +1100</pubDate>
+      <guid>/blog/has-and-belongs-to-many/</guid>
+      <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
+Why this matters: One of the more complicated associations&amp;hellip;..
+New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
+Go Deeper&amp;hellip; (Major Link Here)
+ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
+    </item>
+  </channel>
+</rss>

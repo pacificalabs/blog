@@ -6,7 +6,8 @@
 $font-scale-large: (
   h1: 2.961rem,
   h2: 2.221rem,
-  h3: 1.666rem,
+/*  h3: 1.666rem,*/
+h3: 3.2rem,
   p: 1.25rem
 );
 
@@ -25,7 +26,7 @@ $font-scale-small: (
 );
 
 $base-line-height: 1.6;
-$base-font-size: 1.25rem; // 20px
+$base-font-size: 2.2rem; // 35px
 $vertical-rhythm: $base-line-height * $base-font-size; // 2.125em or 34px
 
 $breakpoint-medium: 49.99em; // 768px
