@@ -94,18 +94,6 @@ Menu:
       identifier: about # the identifier controls the section type (and therewith the appearence).
       url: "/#about"
       weight: 1
-    - name: "About"
-      identifier: about # the identifier controls the section type (and therewith the appearence).
-      url: "/#about"
-      weight: 1
-    - name: "Work"
-      identifier: gallery
-      url: "/#work"
-      weight: 2
-    - name: "Blog"
-      identifier: blog
-      url: "/#blog"
-      weight: 3
     - name: "Contact"
       identifier: contact
       url: "/#contact"
