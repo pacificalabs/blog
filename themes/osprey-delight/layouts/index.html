@@ -3,7 +3,6 @@
 {{ partial "head.html" . }}
 
 <body>
-    {{ partial "body-top" . }}
     <main>
         {{ range $i, $m := .Site.Menus.main -}}
         {{ $partial := printf "partials/sections/%s.html" $m.Identifier }}

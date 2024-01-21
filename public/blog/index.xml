@@ -13,38 +13,28 @@
       <link>/blog/bash-keyboard-shortcuts/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +1000</pubDate>
       <guid>/blog/bash-keyboard-shortcuts/</guid>
-      <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.
-ctrl + A #go to the START of the current line ctrl + E #go to the END of the current line ctrl + L #clear the screen ctrl + U #clear the line BEFORE the cursor position ctrl + K #clear the line AFTER the cursor position #NB If you are at the end of the line the entire line is cleared alt + F #move forward one word position alt + B #move backwards one word position tab #autocomplete file &amp;amp; folder names.</description>
+      <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.&#xA;ctrl + A #go to the START of the current line ctrl + E #go to the END of the current line ctrl + L #clear the screen ctrl + U #clear the line BEFORE the cursor position ctrl + K #clear the line AFTER the cursor position #NB If you are at the end of the line the entire line is cleared alt + F #move forward one word position alt + B #move backwards one word position tab #autocomplete file &amp;amp; folder names.</description>
     </item>
     <item>
       <title>Has and Belongs To Many (Headaches)</title>
       <link>/blog/has-and-belongs-to-many/</link>
       <pubDate>Wed, 02 Mar 2022 00:00:00 +1100</pubDate>
       <guid>/blog/has-and-belongs-to-many/</guid>
-      <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.
-Why this matters: One of the more complicated associations&amp;hellip;..
-New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
-Go Deeper&amp;hellip; (Major Link Here)
-ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
+      <description>The HABTM association is often confusing &amp;amp; can lead to frustration if defined incorrectly. Here find instructions on how to set it correctly.&#xA;Why this matters: One of the more complicated associations&amp;hellip;..&#xA;New Lead Sentence: Bullet Point The Big Picture: Sentence continues here&#xA;Go Deeper&amp;hellip; (Major Link Here)&#xA;ActiveRecord requires you to *define the relationships between two classes. Whilst the has_many &amp;amp; belongs_to association methods attract the most attention*, let&amp;rsquo;s consider the more obscure has_and_belongs_to_many.</description>
     </item>
     <item>
       <title>Step-By-Step-Guide: Deploy your Hugo-built static site online.</title>
       <link>/blog/tips-on-deploying-static-sites-built-with-hugo/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +1000</pubDate>
       <guid>/blog/tips-on-deploying-static-sites-built-with-hugo/</guid>
-      <description>Background When selecting a static site generator our team were frustrated with the slow build time of Jekyll.
-We eventually settled upon Hugo, the superfast framework built in Googles own language Go.
-The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.
-Deploying static sites are not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
+      <description>Background When selecting a static site generator our team were frustrated with the slow build time of Jekyll.&#xA;We eventually settled upon Hugo, the superfast framework built in Googles own language Go.&#xA;The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.&#xA;Deploying static sites are not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
     </item>
     <item>
       <title>Embedded Markdown test</title>
       <link>/blog/embedded-markdown-test/</link>
       <pubDate>Wed, 23 Jun 2021 00:00:00 +1000</pubDate>
       <guid>/blog/embedded-markdown-test/</guid>
-      <description>Vice President Harris will visit the U.S.-Mexico border while in El Paso, Texas, on Friday, Politico first reported and Axios confirmed. Why it matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.
-New Lead Sentence: Bullet Point The Big Picture: Sentence continues here
-Go Deeper&amp;hellip; Instagram has a great description.</description>
+      <description>Vice President Harris will visit the U.S.-Mexico border while in El Paso, Texas, on Friday, Politico first reported and Axios confirmed. Why it matters: Harris, who President Biden put in charge of solving the migrant surge at the southern border, has faced accusations of ignoring the crisis — primarily from Republicans — for not visiting the border.&#xA;New Lead Sentence: Bullet Point The Big Picture: Sentence continues here&#xA;Go Deeper&amp;hellip; Instagram has a great description.</description>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>

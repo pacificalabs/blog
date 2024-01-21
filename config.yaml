@@ -4,7 +4,7 @@ languageCode: "en-AU"
 theme: "osprey-delight"
 tags: ["personal", "homepage", "portfolio"]
 relativeURLs: true
-disableKinds: ["taxonomy", "taxonomyTerm"]
+disableKinds: ["taxonomy"]
 enableEmoji: true
 pygmentsUseClasses: true
 timeZone: "Australia/Sydney"
@@ -91,7 +91,7 @@ Params:
 Menu:
   Main:
     - name: "About"
-      identifier: about # the identifier controls the section type (and therewith the appearence).
+      identifier: slidedeck # the identifier controls the section type (and therewith the appearence).
       url: "/#about"
       weight: 1
     - name: "Contact"

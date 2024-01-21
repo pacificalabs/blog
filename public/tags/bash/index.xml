@@ -13,8 +13,7 @@
       <link>/blog/bash-keyboard-shortcuts/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +1000</pubDate>
       <guid>/blog/bash-keyboard-shortcuts/</guid>
-      <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.
-ctrl + A #go to the START of the current line ctrl + E #go to the END of the current line ctrl + L #clear the screen ctrl + U #clear the line BEFORE the cursor position ctrl + K #clear the line AFTER the cursor position #NB If you are at the end of the line the entire line is cleared alt + F #move forward one word position alt + B #move backwards one word position tab #autocomplete file &amp;amp; folder names.</description>
+      <description>Why it matters: For any software engineer of note, your time is always at a premium, so the ability to quickly &amp;amp; efficiently navigate your way around the terminal will boost your productivity no end.&#xA;ctrl + A #go to the START of the current line ctrl + E #go to the END of the current line ctrl + L #clear the screen ctrl + U #clear the line BEFORE the cursor position ctrl + K #clear the line AFTER the cursor position #NB If you are at the end of the line the entire line is cleared alt + F #move forward one word position alt + B #move backwards one word position tab #autocomplete file &amp;amp; folder names.</description>
     </item>
   </channel>
 </rss>

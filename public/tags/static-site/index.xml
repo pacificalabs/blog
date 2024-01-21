@@ -13,10 +13,7 @@
       <link>/blog/tips-on-deploying-static-sites-built-with-hugo/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +1000</pubDate>
       <guid>/blog/tips-on-deploying-static-sites-built-with-hugo/</guid>
-      <description>Background When selecting a static site generator our team were frustrated with the slow build time of Jekyll.
-We eventually settled upon Hugo, the superfast framework built in Googles own language Go.
-The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.
-Deploying static sites are not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
+      <description>Background When selecting a static site generator our team were frustrated with the slow build time of Jekyll.&#xA;We eventually settled upon Hugo, the superfast framework built in Googles own language Go.&#xA;The motto of Hugo is build sites lightning fast &amp;amp; the build time doesn&amp;rsquo;t disappoint.&#xA;Deploying static sites are not at all straightforward &amp;amp; the options on the Hugo website don&amp;rsquo;t really offer anything that&amp;rsquo;s fast to setup &amp;amp; user friendly to maintain.</description>
     </item>
   </channel>
 </rss>
